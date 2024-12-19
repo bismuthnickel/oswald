@@ -20,7 +20,6 @@ int main(int argc, char* argv[])
     // printf("Contents of file %s:\r\n",argv[i]);
 
     while ((ch=fgetc(file_ptr)) != EOF) {
-        printf("%c", ch);
         fputc(ch, stream);
     }
 
